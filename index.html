@@ -1,219 +1,452 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ANVESH KUMAR PORTFOLIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anvesh Kumar | Video Editor & Visual Storyteller Portfolio</title>
+    <meta name="description" content="Portfolio of Anvesh Kumar, a passionate Video Editor focusing on cinematic cuts, dynamic social media editing, and engaging storytelling.">
+    <!-- Link to Global Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <style>
-        :root{
-            --bg: #0d0d0d;
-            --surface: #1a1a2e;
-            --primary:#BB86FC;
-           --accent: #9C27B0;
-           --text:#f5f5f5;
-            --muted:#b0b0b0;
-        }
-        *{
-            margin: 10;
-            padding: 10;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-    img{
-          display: block;
-            height: 300px;
-            width: 300px;
-            margin-left: auto;
-            margin-right: auto;
-            border: 3px solid rgb(0, 255, 208);
-border-radius: 500px;
-background-color: rgb(0, 255, 106);
+    <!-- Sticky Navigation Header -->
+    <header>
+        <div class="nav-container">
+            <a href="#hero" class="logo">ANVESH KUMAR</a>
             
-        
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
             
-        
-
-        }
-        .container{
-        text-align: center;
-      }
-        button{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    
-      body{
-        background: var(--bg);
-        color: var(--text);
-        
-      }
-      header{
-        display: fixed;
-        justify-content: space-between;
-        background: var(--surface);
-        text-align: center;
-        padding: 20px 40px;
-        margin: 0;
-      }
-     
-      h1{
-        color: var(--primary);
-  
-      }
-nav a{
-        display: inline;
-        justify-content: space-between;
-        background: var(--surface);
-        text-align: center;
-        padding: 30px 40px;
-        border: 0.5px solid white;
-        border-radius: 65px;
-        
-    text-decoration: none;
-    color: white;
-}
-nav a:hover{
-    color:var(--primary)
-
-}
-.hero{
-    height: 90vh;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.hero h2 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-
-    .hero p {
-      color: var(--muted);
-      margin-bottom: 20px;
-    }
-
-    .btn {
-      background: var(--accent);
-      padding: 12px 25px;
-      border-radius: 6px;
-      color: white;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      background: #7C3AED;
-      text-color: white;
-    }
-
-
-    .cards {
-      display: flex;
-      gap: 20px;
-      padding: 40px;
-      justify-content: center;
-    }
-
-    .card {
-      background: var(--surface);
-      padding: 50px;
-      border-radius: 10px;
-      width: 500px;
-      justify-content: center;
-    }
-
-    .card h2 {
-      color: var(--primary);
-      margin-bottom: 10px;
-    }
-
-
-
-
-    </style>
-    </head>
-    <body>
-        <div class="container">
-   <header >
-   <h1 class= "logo" >WELCOME TO MY PORTFOLIO</h1>
-   <br>
-    <nav>
-    <ul class="nav-links">
-        <a href="about.html" >ABOUT</a>
-
-    
-        <a href="skills.html"> SKILLS</a>
-
-    
-      <a href="projects.html">PROJECTS</a>  
-    
-    </nav>
-  </br>
-     </header>
-
-<main> 
-   
-            <h1>ANVESH KUMAR </h1>
-    
-    <a href="https://www.instagram.com/nameisanvesh3/ ">
-        <img src="o1.png" src="profile"></a>
-    <p>Iam Anvesh Kumar, A passionate Video Editor With Focus On stroy telling And cinematic Cuts </p>
-    <p>Iam Currently Pursuing B.Tech in <em>Sri Indu College Of Engineering And Technology</em>,Hyderabad</p>
-    <p>I create engaging videos with smooth storytelling, dynamic captions, and professional sound design </p>
-
-<span>
-<section class="cards">
-    <div class="card">
-    <h1>SERVICES AND PACKAGES</h1>
-
-    <p><strong>Video Editing Services Tailored To Your Needs</strong></p>
-<div class="my-box">
-        <h2 >SOCIAL MEDIA EDITS</h2>
-        <p>Quick,engaging edits optimized for instagram and Youtube shorts</p>
-        <p>✓ 15-60 second edits</p>
-        <p>✓ platform-specific optimization</p>
-        <p>✓ Trendy Effects & Transitions</p>
-        <p>✓ Fast Turnaround (24-48hrs) </p>
-        <h2>STARTING AT Rs 2,000</h2>
+            <a href="#contact" class="nav-cta-btn">Let's Talk</a>
+            
+            <button class="menu-toggle" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-    <br>
-        <div>
-            <a href="message.html" class="btn">Get Started</a>
-        </div> 
-      </br>
-      
-      
-</div>
-</section>
-<section class="cards">
-  <div class="card">
+    </header>
 
-    <p><strong>★ MOST POPULAR</strong></p>
-    <h2>YOUTUBE VIDEOS</h2>
+    <!-- Main Content -->
+    <main>
 
-    <p>
-      Professional Video Editing For vlogs, Tutorials, Reviews, and Long-Form Content
-    </p>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content reveal active">
+                    <span class="section-subtitle">Professional Video Editor</span>
+                    <h1>Crafting <span class="gradient-text">Visual Stories</span> That Captivate</h1>
+                    <p class="hero-subtitle">Cinematic Cuts • Dynamic Captioning • Sound Design</p>
+                    <p class="hero-desc">
+                        I am Anvesh Kumar, a passionate video editor dedicated to turning raw footage into high-retention, cinematic masterpieces. Currently pursuing B.Tech at Sri Indu College of Engineering and Technology, Hyderabad.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Let's Collaborate</a>
+                    </div>
+                </div>
+                
+                <div class="hero-image-wrapper reveal active">
+                    <div class="profile-circle">
+                        <div class="profile-img-container">
+                            <img src="o1.png" alt="Anvesh Kumar Portrait">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
 
-    <p>✔ Full Video Editing</p>
-    <p>✔ Colour Correction</p>
-    <p>✔ Audio Enhancement</p>
-    <p>✔ Thumbnail Design Included</p>
-    <p>✔ Unlimited Revisions</p>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">My Journey</span>
+                    <h2 class="section-title">Behind The Lens</h2>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-details glass-card reveal">
+                        <p>
+                            Hi, I'm Anvesh Kumar. I specialize in editing high-quality, high-retention videos that connect with audiences. From YouTube documentaries and short films to hyper-optimized social media reels, I focus on the elements that matter: clean pacing, clear hooks, and cinematic grading.
+                        </p>
+                        <p>
+                            To me, video editing is not just about stacking transition presets; it is about building emotional hooks, maintaining dynamic flow, and amplifying the core story. Let's work together to bring your visual goals to life.
+                        </p>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item glass-card reveal">
+                            <div class="stat-num">50+</div>
+                            <div class="stat-label">Videos Completed</div>
+                        </div>
+                        <div class="stat-item glass-card reveal">
+                            <div class="stat-num">100%</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                        <div class="stat-item glass-card reveal">
+                            <div class="stat-num">24h</div>
+                            <div class="stat-label">Fast Turnaround</div>
+                        </div>
+                        <div class="stat-item glass-card reveal">
+                            <div class="stat-num">B.Tech</div>
+                            <div class="stat-label">Tech Education</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <h2>STARTING AT Rs 5,000</h2>
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Expertise</span>
+                    <h2 class="section-title">Creative & Technical Toolkit</h2>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="glass-card reveal">
+                        <h3 style="margin-bottom: 24px; color: var(--accent-cyan);">Video Editing Core</h3>
+                        <div class="skill-tag-container">
+                            <span class="skill-badge">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+                                Clean Cuts & Transitions
+                            </span>
+                            <span class="skill-badge">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+                                Beat Syncing & Sound FX
+                            </span>
+                            <span class="skill-badge">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                                Cinematic Storytelling
+                            </span>
+                            <span class="skill-badge">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="4"></circle></svg>
+                                Color Grading & Correction
+                            </span>
+                            <span class="skill-badge">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4M8 23h8"></path></svg>
+                                Audio Enhancements
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card reveal">
+                        <h3 style="margin-bottom: 24px; color: var(--accent-purple);">Motion & Social Media</h3>
+                        <div class="skill-tag-container">
+                            <span class="skill-badge purple">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                                Dynamic Captions & Subtitles
+                            </span>
+                            <span class="skill-badge purple">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2</polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                                Zoom Cuts & Fast Pacing
+                            </span>
+                            <span class="skill-badge purple">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                                Trend-based Reels Editing
+                            </span>
+                            <span class="skill-badge purple">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="12 8 8 12 12 16 16 12 12 8"></polygon></svg>
+                                3-Second Retention Hooks
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- ✅ MOVE BUTTON HERE -->
-<br>
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Portfolio</span>
+                    <h2 class="section-title">Selected Productions</h2>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal">
+                        <div class="project-media">
+                            <img src="signing off.jpg" alt="Signing Off - Full Length Short Film Thumbnail">
+                            <div class="media-overlay">
+                                <button class="play-overlay-btn play-trigger" data-video-url="https://www.youtube.com/watch?v=BlJvZ22Ybu8" aria-label="Play Short Film">
+                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div>
+                                <div class="project-tags">
+                                    <span class="project-tag">Short Film</span>
+                                    <span class="project-tag">Sound Design</span>
+                                </div>
+                                <h3>Signing Off</h3>
+                                <p>A narrative-focused cinematic short film showcasing narrative pacing, grading, and immersive sound styling.</p>
+                            </div>
+                            <button class="btn btn-secondary play-trigger" data-video-url="https://youtu.be/BlJvZ22Ybu8?si=Cjkmj1jSi_lRutvW" style="width: 100%;">Watch Project</button>
+                        </div>
+                    </div>
 
-    <a href="message.html" class="btn">Get Started</a>
-  </br>
-  </div>
-</section>
+                    <!-- Project 2 -->
+                    <div class="project-card reveal">
+                        <div class="project-media">
+                            <img src="THE.png" alt="The Teaser Cut Thumbnail">
+                            <div class="media-overlay">
+                                <button class="play-overlay-btn play-trigger" data-video-url="https://youtu.be/3P3YtGrnrxE?si=opv4k879cCWjotpi" aria-label="Play Teaser Cut">
+                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div>
+                                <div class="project-tags">
+                                    <span class="project-tag">Teaser</span>
+                                    <span class="project-tag">High Tempo</span>
+                                </div>
+                                <h3>Teaser Cut</h3>
+                                <p>Fast-paced, action-oriented editing sequence engineered to boost engagement and viewer retention metrics.</p>
+                            </div>
+                            <button class="btn btn-secondary play-trigger" data-video-url="https://youtu.be/3P3YtGrnrxE?si=opv4k879cCWjotpi" style="width: 100%;">Watch Project</button>
+                        </div>
+                    </div>
 
-</div>
-</div>
+                    <!-- Project 3 -->
+                    <div class="project-card reveal">
+                        <div class="project-media">
+                            <img src="oura media.jpg" alt="Oura Media Productions Instagram Page Thumbnail">
+                            <div class="media-overlay">
+                                <button class="play-overlay-btn play-trigger" data-video-url="https://www.instagram.com/oura.media/" aria-label="Go to Oura Media Instagram">
+                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div>
+                                <div class="project-tags">
+                                    <span class="project-tag">Social Media</span>
+                                    <span class="project-tag">Instagram Feed</span>
+                                </div>
+                                <h3>Oura Media Editor</h3>
+                                <p>High-yield content edits tailored for reels and TikTok campaigns, optimized for quick pacing and trendy styles.</p>
+                            </div>
+                            <a href="https://www.instagram.com/oura.media/" target="_blank" class="btn btn-secondary" style="width: 100%;">Visit Instagram Page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Offers</span>
+                    <h2 class="section-title">Editing Services & Packages</h2>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Service Package 1 -->
+                    <div class="glass-card service-card reveal">
+                        <div>
+                            <div class="service-title">
+                                <h3>Social Media Edits</h3>
+                                <span class="service-price">₹2,000+</span>
+                            </div>
+                            <p style="color: var(--text-secondary); margin-bottom: 24px;">Short-form edits engineered for Instagram Reels, YouTube Shorts, and TikTok algorithms.</p>
+                            <ul class="service-features">
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    15-60 Second Content Duration
+                                </li>
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Platform-Specific Frame Optimization
+                                </li>
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Trendy Captions, Effects & SFX
+                                </li>
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Fast Turnaround (24-48 Hours)
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn btn-secondary" style="width: 100%;">Get Started</a>
+                    </div>
+
+                    <!-- Service Package 2 -->
+                    <div class="glass-card service-card reveal" style="border-color: rgba(6, 182, 212, 0.3);">
+                        <span class="popular-badge">Most Popular</span>
+                        <div>
+                            <div class="service-title">
+                                <h3>YouTube Productions</h3>
+                                <span class="service-price">₹5,000+</span>
+                            </div>
+                            <p style="color: var(--text-secondary); margin-bottom: 24px;">Professional full-length editing for vlogs, detailed reviews, tutorials, and storytelling content.</p>
+                            <ul class="service-features">
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Full Video Assembly & Narrative Flow
+                                </li>
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Color Correction & Cinematic Grading
+                                </li>
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Pro Audio Master, Denoising & Sound FX
+                                </li>
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Complementary YouTube Thumbnail Design
+                                </li>
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Unlimited Revisions
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn btn-primary" style="width: 100%;">Book Package</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Get in Touch</span>
+                    <h2 class="section-title">Let's Create Together</h2>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <h3>Connect Directly</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 24px;">Have a project concept or need custom services? Shoot me a message directly or connect via social channels.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <a href="mailto:anveshkumar920@gmail.com">anveshkumar920@gmail.com </a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Phone</h4>
+                                    <p>+91 63037 09949</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links" style="margin-top: 16px;">
+                            <a href="https://www.instagram.com/nameisanvesh3/" target="_blank" class="social-icon" aria-label="Instagram">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                            <a href="https://youtu.be/BlJvZ22Ybu8?si=Cjkmj1jSi_lRutvW" target="_blank" class="social-icon" aria-label="YouTube">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></polygon><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card reveal">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number (optional)">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" class="form-control" placeholder="Describe your project, editing needs, or details..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" style="margin-top: 12px; width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Anvesh Kumar. Designed and Crafted with Care. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Video Modal Component -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header-actions">
+                <a id="modalExternalLink" href="#" target="_blank" class="modal-external-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    <span>Watch on YouTube</span>
+                </a>
+                <button class="modal-close" aria-label="Close modal">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    <span>Close</span>
+                </button>
+            </div>
+            <div class="video-container">
+                <!-- Iframe injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Import -->
+    <script src="app.js" defer></script>
 </body>
 </html>
